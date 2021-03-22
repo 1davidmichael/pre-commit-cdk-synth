@@ -4,7 +4,7 @@ This repository provides a [pre-commit] hook that triggers a `cdk synth` when ma
 
 ## Usage
 
-To utilize this hook add an entry to a `.pre-commit-config.yaml` file in the project root and ensure pre-commit is installed.
+To utilize this hook add an entry to a `.pre-commit-config.yaml` file in the project root and ensure pre-commit is installed. This does require a working CDK environment to be already setup. So ensure the [cdk cli] is installed along with any other dependencies.
 
 **Example:**
 
@@ -18,3 +18,4 @@ repos:
 
 [pre-commit]: https://pre-commit.com/
 [AWS CDK]: https://github.com/aws/aws-cdk
+[cdk cli]: https://docs.aws.amazon.com/cdk/latest/guide/cli.html
