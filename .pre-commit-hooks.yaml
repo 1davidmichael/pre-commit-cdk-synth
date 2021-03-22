@@ -1,0 +1,7 @@
+---
+- id: cdk-synth
+  name: cdk synth
+  entry: cdk synth
+  language: system
+  files: '^.+\.(py|ts|js)'
+  pass_filenames: false
