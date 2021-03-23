@@ -3,5 +3,5 @@
   name: cdk synth
   entry: cdk synth
   language: system
-  files: '^.+\.(py|ts|js)'
+  files: '^.+\.(py|ts|js|cs|fs|java)'
   pass_filenames: false
