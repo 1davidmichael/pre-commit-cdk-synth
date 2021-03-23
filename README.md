@@ -11,7 +11,7 @@ To utilize this hook add an entry to a `.pre-commit-config.yaml` file in the pro
 ```yaml
 repos:
   - repo: https://github.com/1davidmichael/pre-commit-cdk-synth
-    rev: v0.0.1
+    rev: v0.0.2
     hooks:
       - id: cdk-synth
 ```
